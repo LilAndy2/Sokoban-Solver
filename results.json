@@ -1,0 +1,236 @@
+{
+  "easy_map1": {
+    "IDA*": {
+      "manhattan": {
+        "states": 667,
+        "runtime": 0.22345524397678673,
+        "pulls": 1
+      },
+      "exact_matching": {
+        "states": 571,
+        "runtime": 0.33177839795826003,
+        "pulls": 1
+      }
+    },
+    "SA": {
+      "simulated_annealing": {
+        "states": 5895,
+        "runtime": 0.25828955799806863,
+        "pulls": 16
+      },
+      "exact_matching": {
+        "states": 5292,
+        "runtime": 0.2279146409709938,
+        "pulls": 16
+      }
+    }
+  },
+  "easy_map2": {
+    "IDA*": {
+      "manhattan": {
+        "states": 85,
+        "runtime": 0.009910463995765895,
+        "pulls": 0
+      },
+      "exact_matching": {
+        "states": 70,
+        "runtime": 0.008390938979573548,
+        "pulls": 0
+      }
+    },
+    "SA": {
+      "simulated_annealing": {
+        "states": 190,
+        "runtime": 0.008731126959901303,
+        "pulls": 0
+      },
+      "exact_matching": {
+        "states": 709,
+        "runtime": 0.031627314048819244,
+        "pulls": 3
+      }
+    }
+  },
+  "hard_map1": {
+    "IDA*": {
+      "manhattan": {
+        "states": 11165,
+        "runtime": 9.018711661978159,
+        "pulls": 2
+      },
+      "exact_matching": {
+        "states": 9875,
+        "runtime": 13.615332772023976,
+        "pulls": 1
+      }
+    },
+    "SA": {
+      "simulated_annealing": {
+        "states": 10125,
+        "runtime": 0.7708820800180547,
+        "pulls": 106
+      },
+      "exact_matching": {
+        "states": 7742,
+        "runtime": 0.5539421480498277,
+        "pulls": 97
+      }
+    }
+  },
+  "hard_map2": {
+    "IDA*": {
+      "manhattan": {
+        "states": 52113,
+        "runtime": 49.52378939901246,
+        "pulls": 2
+      },
+      "exact_matching": {
+        "states": 49655,
+        "runtime": 86.13524786900962,
+        "pulls": 2
+      }
+    },
+    "SA": {
+      "simulated_annealing": {
+        "states": 1909,
+        "runtime": 0.1349384729983285,
+        "pulls": 10
+      },
+      "exact_matching": {
+        "states": 10882,
+        "runtime": 0.7264780109981075,
+        "pulls": 49
+      }
+    }
+  },
+  "large_map1": {
+    "IDA*": {
+      "manhattan": {
+        "states": 8788,
+        "runtime": 5.568067140004132,
+        "pulls": 4
+      },
+      "exact_matching": {
+        "states": 3878,
+        "runtime": 3.9395711760153063,
+        "pulls": 7
+      }
+    },
+    "SA": {
+      "simulated_annealing": {
+        "states": 6616,
+        "runtime": 0.44910514500224963,
+        "pulls": 56
+      },
+      "exact_matching": {
+        "states": 133085,
+        "runtime": 8.874216065974906,
+        "pulls": 835
+      }
+    }
+  },
+  "large_map2": {
+    "IDA*": {
+      "manhattan": {
+        "states": 30238,
+        "runtime": 26.663982115976978,
+        "pulls": 5
+      },
+      "exact_matching": {
+        "states": 36408,
+        "runtime": 65.22924116801005,
+        "pulls": 5
+      }
+    },
+    "SA": {
+      "simulated_annealing": {
+        "states": 86673,
+        "runtime": 8.949277201027144,
+        "pulls": 483
+      },
+      "exact_matching": {
+        "states": 35211,
+        "runtime": 3.683413880004082,
+        "pulls": 206
+      }
+    }
+  },
+  "medium_map1": {
+    "IDA*": {
+      "manhattan": {
+        "states": 114,
+        "runtime": 0.016240894969087094,
+        "pulls": 3
+      },
+      "exact_matching": {
+        "states": 85,
+        "runtime": 0.016064680996350944,
+        "pulls": 3
+      }
+    },
+    "SA": {
+      "simulated_annealing": {
+        "states": 140,
+        "runtime": 0.00780284299980849,
+        "pulls": 3
+      },
+      "exact_matching": {
+        "states": 2597,
+        "runtime": 0.13661186600802466,
+        "pulls": 29
+      }
+    }
+  },
+  "medium_map2": {
+    "IDA*": {
+      "manhattan": {
+        "states": 1822,
+        "runtime": 0.47392312402371317,
+        "pulls": 3
+      },
+      "exact_matching": {
+        "states": 1955,
+        "runtime": 1.0787919879658148,
+        "pulls": 3
+      }
+    },
+    "SA": {
+      "simulated_annealing": {
+        "states": 4946,
+        "runtime": 0.3273752619861625,
+        "pulls": 42
+      },
+      "exact_matching": {
+        "states": 40609,
+        "runtime": 2.595208224025555,
+        "pulls": 472
+      }
+    }
+  },
+  "super_hard_map1": {
+    "IDA*": {
+      "manhattan": {
+        "states": 271374,
+        "runtime": 125.22986870096065,
+        "pulls": 8
+      },
+      "exact_matching": {
+        "states": 173799,
+        "runtime": 279.0944195819902,
+        "pulls": 13
+      }
+    },
+    "SA": {
+      "simulated_annealing": {
+        "states": 18348,
+        "runtime": 1.5391128939809278,
+        "pulls": 303
+      },
+      "exact_matching": {
+        "states": 16654,
+        "runtime": 1.2732526820036583,
+        "pulls": 256
+      }
+    }
+  }
+}
